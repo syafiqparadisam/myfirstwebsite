@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="Informasi website tentang puasa ramadhan, amalan saat bulan ramadhan, dan malam lailatul qadr">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Poppins:wght@300&display=swap" rel="stylesheet">
+  <title>Ramadhan 1444H</title>
+  <style>
+    body {
+      font-family: 'Poppins', Sans-Serif;
+    }
+    .navbar {
+      background-color: #64ff56;
+    }
+    .nav-item:hover {
+      background-color: #ffea88;
+      transition: all .5s ease-in-out;
+      padding: 0 3px;
+    }
+    .nav-link {
+      margin-right: 3px;
+    }
+    .txt {
+      line-height: 2px;
+    }
+    .carousel {
+      font-family: 'Libre Baskerville', serif;
+      position: relative;
+    }
+    .carousel-caption {
+      color: #eaf1f3;
+      align-self: center;
+      font-family: 'Times New Roman', Sans-Serif;
+      font-weight: 300;
+      margin-bottom: 15vh;
+    }
+    .carousel::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      z-index: 2;
+      width: 100%;
+      height: 100%;
+      display: block;
+      opacity: 75%;
+      background: linear-gradient(0deg, rgba(1, 1, 3, 1) 3%, rgba(255, 255, 255, 0) 10%);
+    }
+    .carousel-control-prev, .carousel-control-next {
+      opacity: 0%;
+    }
+    .opening::after {
+      content: '';
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      opacity: 75%;
+      display: block;
+      background: linear-gradient(180deg, rgba(1, 1, 3, 1) 3%, rgba(255, 255, 255, 0) 10%);
+    }
+    .lailatul-qadr {
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body class="bg-warning">
+
+  <!--Navbar Start-->
+  <nav class="navbar navbar-expand-md navbar-light bg-warning sticky-top shadow-md">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="/">
+        Ramadhan 1444 H</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item rounded">
+            <a class="nav-link active fw-bold" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item rounded">
+            <a class="nav-link fw-bold" href="#opening">Pengertian</a>
+          </li>
+          <li class="nav-item rounded">
+            <a class="nav-link fw-bold" href="#amalan">Amalan</a>
+          </li>
+          <li class="nav-item rounded">
+            <a class="nav-link fw-bold" href="#lailatulQadr">Lailatul Qadr</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!--Navbar End-->
+
+  <!--Carousel Start-->
+  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item d-flex active">
+        <img src="assets/gambar1.webp" class="d-block w-100" alt="bg-ramadhan">
+        <div class="carousel-caption d-block">
+          <h1 class="judul d-md-block d-none">Sambut Ramadhan Dengan Pribadi Yang Lebih Baik</h1>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="assets/gambar2.webp" class="d-block w-100" alt="orang-berbuka">
+        <div class="carousel-caption d-block">
+          <h1 class="judul d-md-block d-none">Bulan Ramadhan Adalah Bulan Yang Lebih Baik Dari Seribu Bulan</h1>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="assets/gambar3.webp" class="d-block w-100 align-self-center" alt="tadarrus-alquran">
+        <div class="carousel-caption d-block">
+          <h1 class="judul d-md-block d-none">Di Bulan Ini Sebaiknya Perbanyak Amal Ibadah Kita Kepada Allah</h1>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!--Carousel End-->
+
+  <div class="opening mb-2 position-relative" id="opening">
+    <img src="assets/open.webp" alt="opening" class="img-fluid w-100">
+  </div>
+
+  <!--Tentang Puasa Start-->
+  <div class="container-fluid pt-2">
+    <div class="container">
+      <div class="row text-dark">
+        <div class="col-12">
+          <h1 class="text-center">Pengertian Puasa Ramadhan</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <p class="text-center mt-2">
+            Puasa Ramadhan adalah suatu amalan ibadah yang dilakukan dengan menahan diri dari segala sesuatu seperti makan, minum, perbuatan buruk maupun dari yang membatalkan puasa mulai dari terbitnya fajar hingga terbenamnya matahari yang disertai dengan niat karena Allah SWT, dengan syarat dan rukun tertentu. selain menjaga hawa nafsu, juga wajib dilakukan oleh umat Islam. Hal ini sudah dijelaskan dalam firman Allah dalam Q.S. Al-Baqarah ayat 183 yaitu:
+            <br>
+            <p class="text-end fw-bold" id="amalan">
+              يَا أَيُّهَا الَّذِينَ آمَنُوا كُتِبَ عَلَيْكُمُ الصِّيَامُ كَمَا كُتِبَ عَلَى الَّذِينَ مِنْ قَبْلِكُمْ لَعَلَّكُمْ تَتَّقُونَ
+            </p>
+            <blockquote class="text-center">
+              Artinya: Hai orang-orang yang beriman, diwajibkan atas kamu berpuasa sebagaimana diwajibkan atas orang-orang sebelum kamu agar kamu bertakwa.
+            </blockquote>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--Tentang Puasa End-->
+  <div class="container">
+    <hr>
+  </div>
+  <!--Amalan Start-->
+  <div class="container-fluid">
+    <div class="container">
+      <div class="row text-dark">
+        <div class="col-12">
+          <h1 class="text-center">Amalan Saat Bulan Ramadhan</h1>
+        </div>
+        <div class="col-md-5 py-3 col-sm-12">
+          <img src="assets/alquran.webp" alt="gambar-alquran" class="img-fluid">
+        </div>
+        <div class="col-md-7 py-3 align-self-center col-sm-12">
+          <p class="text-center text-md-end">
+            Membaca Al Quran di hari biasa saja akan diberikan pahala oleh Allah SWT, apalagi jika dilakukan di bulan suci Ramadhan. Sebagaimana Rasulullah SAW bersabda sebagai berikut: "Barangsiapa yang membaca satu huruf dari Al-Quran maka ia akan mendapat satu kebaikan dan dari satu kebaikan itu berlipat menjadi sepuluh kebaikan. Aku tidak mengatakan alif lam mim sebagai satu huruf. Akan tetapi alif satu huruf, lam satu huruf dan mim satu huruf." (HR. Bukhari).  Jika membaca satu huruf dalam Al Quran di hari biasa saja akan mendapatkan satu kebaikan yang akan berlipat lagi menjadi sepuluh kebaikan makan ini akan berlipat lagi jika dilakukan di Ramadhan.
+          </p>
+        </div>
+        <div class="col-md-7 py-3 align-self-center col-sm-12">
+          <p class="d-none d-md-block">
+            Zikir merupakan ibadah yang berarti mengingat Allah. Zikir dilakukan dengan melafalkan puji-pujian kepada Allah secara berulang. Di bulan Ramadan, setiap ibadah termasuk berzikir mendapatkan pahala yang dilipatgandakan Allah SWT. Zikir di bulan Ramadan dapat di baca kapan saja. Mulai dari berzikir saat sahur, berzikir setelah salat, berzikir di siang hari, berzikir saat menunggu buka puasa, saat berbuka puasa hingga di malam hari.
+          </p>
+        </div>
+        <div class="col-md-5 py-3 col-sm-12">
+          <img src="assets/dzikir.webp" alt="gambar-dzikir" class="img-fluid">
+        </div>
+        <div class="col-sm-12">
+          <p class="text-center d-sm-block d-md-none">
+            Zikir merupakan ibadah yang berarti mengingat Allah. Zikir dilakukan dengan melafalkan puji-pujian kepada Allah secara berulang. Di bulan Ramadan, setiap ibadah termasuk berzikir mendapatkan pahala yang dilipatgandakan Allah SWT. Zikir di bulan Ramadan dapat di baca kapan saja. Mulai dari berzikir saat sahur, berzikir setelah salat, berzikir di siang hari, berzikir saat menunggu buka puasa, saat berbuka puasa hingga di malam hari.
+          </p>
+        </div>
+        <div class="col-md-5 py-3 col-sm-12">
+          <img src="assets/tarawih.webp" alt="orang-tarawih" class="img-fluid">
+        </div>
+        <div class="col-md-7 align-self-center col-sm-12" id="lailatulQadr">
+          <p class="text-md-end text-center">
+            Sholat tarawih merupakan salah satu ibadah sunnah yang paling banyak dilakukan saat bulan Ramadhan. Meskipun sunnah, ternyata sholat tarawih memiliki ganjaran yang besar dan banyak keutamaan bagi yang menjalankan. Sholat tarawih juga dapat dilakukan untuk meraih keberkahan Allah SWT.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--Amalan Start End-->
+  <div class="container">
+    <hr>
+  </div>
+  <!--Lailatul Qadr Start-->
+  <div class="container-fluid">
+    <div class="container text-dark">
+      <div class="row">
+        <div class="col-12">
+          <h1 class="text-center">Malam Lailatul Qadr</h1>
+        </div>
+        <div class="col-12 text-center">
+          <img src="assets/lailatul.webp" alt="lailatul-qadr" class="img-fluid my-4 text-center w-75 shadow lailatul-qadr">
+        </div>
+        <div class="col-12">
+          <p class="text-center">
+            Malam Lailatul Qadar adalah malam yang dipenuhi dengan kemuliaan sehingga seorang muslim yang mendapatkan kemuliaan malam tersebut akan dilipatgandakkan pahala ibadahnya.
+            Malam yang mulia ini hanya terjadi di bulan ramadhan sehingga banyak umat muslim yang berlomba-lomba untuk berburu pahala di malam tersebut dengan mengerjakan lebih banyak amalan ibadah. Malam Lailatul Qadar menjadi malam istimewa bagi umat muslim karena malam ini merupakan malam turunnya Al Quran sehingga menjadi malam yang lebih baik daripada 1000 bulan yang di dalamnya tidak ada Lailatul Qadar. Malam Lailatul Qadar dipenuhi dengan keselamatan sehingga tidak ada gangguan setan. Di malam tersebut setan tidak dapat berbuat jelek maupun mengganggu umat muslim. Malam Lailatul Qadar menjadi malam dilakukannya perincian pada penulisan takdir selama setahun di Lauhul Mahfudz, termasuk pemberian rezeki dan terjadinya ajal. Dan masih banyak lagi keutamaan lainnya di malam lailatul qadar.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--Lailatul Qadr End-->
+
+  <!--Footer Start-->
+  <div class="container-fluid bg-success position-relative">
+    <div class="container position-relative">
+      <div class="row">
+        <div class="col-md-6 col-12 py-4">
+          <h5 class="text-center text-white">Contact Me</h5>
+          <a href="https://www.instagram.com/syafiqpinginfullstack" target="_blank"  class="text-white text-decoration-none txt"><p class="d-md-none d-sm-block text-white text-center">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+              <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
+            </svg> : @syafiqpinginfullstack
+          </p>
+          </a>
+        </div>
+        <div class="col-md-6 col-12 py-4">
+          <h5 class="text-center text-white d-md-block d-sm-none">Made By</h5>
+          <p class="txt d-md-none d-sm-block text-white text-center">
+            Programmer by: Syafiq
+          </p>
+          <p class="txt d-md-none d-sm-block text-white text-center">
+            Design by : Syafiq
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 col-12">
+          <a href="https://www.instagram.com/syafiqpinginfullstack" target="_blank" class="text-white text-decoration-none txt"><p class="d-md-block d-none text-white text-center">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+              <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
+            </svg> : @syafiqpinginfullstack
+          </p>
+          </a>
+        </div>
+        <div class="col-md-6 col-12">
+          <p class="txt d-md-block d-none text-white text-center">
+            Programmed by : Syafiq
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 col-12">
+         
+        </div>
+        <div class="col-md-6 col-12">
+          <p class="txt d-none d-md-block text-white text-center">
+            Designed by : Syafiq
+          </p>
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="col-12">
+          <h6 class="text-center text-white">© Copyright 2023</h6>
+        </div>
+      </div>
+    </div>
+</div>
+<!--Footer End-->
+
+<!--Script-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
